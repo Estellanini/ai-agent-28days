@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Start Day 1",
+      "status": "open",
+      "source": "README.md",
+      "notes": "Create glossary and agent system map."
+    }
+  ]
+}
+
