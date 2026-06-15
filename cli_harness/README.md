@@ -11,18 +11,18 @@
 
 ## 计划文件
 
-- `cli.py`：命令行入口。
-- `filesystem_tools.py`：受控文件工具。
-- `patch_tool.py`：文本 patch 工具。
-- `shell_tool.py`：受限 shell 工具。
-- `checkpoint.py`：workspace checkpoint 和 restore。
+- `src/cli.ts`：命令行入口。
+- `src/filesystem-tools.ts`：受控文件工具。
+- `src/patch-tool.ts`：文本 patch 工具。
+- `src/shell-tool.ts`：受限 shell 工具。
+- `src/checkpoint.ts`：workspace checkpoint 和 restore。
 - `test_workspace/`：文件工具测试工作区。
 - `sample_project/`：Day 13 真实小任务样例项目。
 
 ## 复现命令
 
 ```bash
-python -m cli_harness.cli "your task" --workspace cli_harness/test_workspace
+pnpm cli "your task" --workspace cli_harness/test_workspace
 ```
 
 ## 风险记录
@@ -31,4 +31,3 @@ python -m cli_harness.cli "your task" --workspace cli_harness/test_workspace
 - patch 失败：
 - shell 拒绝：
 - restore 失败：
-

@@ -9,12 +9,12 @@
 
 ## 计划文件
 
-- `loop.py`：agent loop。
-- `tools.py`：本地工具。
-- `tool_registry.py`：工具注册、查找和参数校验。
-- `planning_modes.py`：direct / ReAct / plan-act 对照。
-- `tracing.py`：JSONL trace。
-- `multi_agent_demo.py`：多 agent demo。
+- `src/loop.ts`：agent loop。
+- `src/tools.ts`：本地工具。
+- `src/tool-registry.ts`：工具注册、查找和参数校验。
+- `src/planning-modes.ts`：direct / ReAct / plan-act 对照。
+- `src/tracing.ts`：JSONL trace。
+- `src/multi-agent-demo.ts`：多 agent demo。
 - `data/prices.json`：Day 5 示例数据。
 
 ## 运行记录
@@ -25,4 +25,3 @@
 - Day 5：
 - Day 6：
 - Day 25：
-
