@@ -65,12 +65,6 @@ Agent Loop 为什么是 agent 的核心？一次模型调用和多轮 agent loop
 ---
 
 
-
-## 今日目标
-
-- 用 mock model 跑通最小 agent loop。
-- 产出 `mini_agent/loop.py`、`mini_agent/tools.py` 和 `traces/day-02-run.jsonl`。
-
 ## AI 资讯卡
 
 ### 资讯 1
